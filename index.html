@@ -3,16 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RMHp-OHP</title>
+    <title>RMHP-OHP</title>
 </head>
-<body>
-    <div id="content">
-        <!-- Content will be loaded here -->
-    </div>
+<body bgcolor="#cccccc" id="body_html">
     <script>
         fetch('content.txt')
             .then(response => response.text())
-            .then(data => document.getElementById('content').innerHTML = data)
+            .then(data => document.getElementById('body_html').innerHTML = data)
             .catch(error => console.error('Error fetching content:', error));
     </script>
 </body>
