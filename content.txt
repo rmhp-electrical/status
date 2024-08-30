@@ -3307,45 +3307,4 @@ bool_val:1;" width="5%" nowrap="" height="5%">
                               </table>
                             </font>
                           </div>
-                          <div id="popups">
-                            <div id='chart_modal' class="modal modal-xl" data-bs-backdrop="static" tabindex="-1" >
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 id="chart_title" class="modal-title">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <canvas id="chart_canvas"></canvas>
-      </div>
-      <!-- <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div> -->
-    </div>
-  </div>
-</div>
-                            <div class="container container-fluid">
-  <div id='popup_modal' class="modal modal-xl" data-bs-backdrop="static" tabindex="-1">
-    <div class="modal-dialog modal-dialog-scrollable">
-      <div class="modal-content">
-        <!-- <div class="modal-header">
-          <h5 id="popup_title" class="modal-title" style='color:white;text-align:center;'>Modal title</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div> -->
-        <div class="modal-body">
-          <table class="table table-dark table-borderless" id="popup_table">
-            <tbody id='popup_table_body' >
-            </tbody>
-          </table>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
-          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-                          </div>
-                        
+                          
