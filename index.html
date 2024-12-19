@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="60">
+    <link rel="stylesheet" href="ohp.css" type="text/css">
+    <title>RMHP-OHP</title>
+</head>
+<body bgcolor="#cccccc" id="body_html">
+    <script>
+        fetch('content.txt')
+            .then(response => response.text())
+            .then(data => document.getElementById('body_html').innerHTML = data)
+            .catch(error => console.error('Error fetching content:', error));
+    </script>
+</body>
+</html>

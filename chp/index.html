@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="refresh" content="60"> -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <link rel="stylesheet" href="../ohp.css" type="text/css">
+    <title>RMHP-CHP</title>
+    <script>
+        // Function to detect if the user is on a mobile device
+        function isMobile() {
+            const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+            return /android|iPad|iPhone|iPod|windows phone/i.test(userAgent);
+        }
+
+        // Redirect mobile users
+        function redirectToMobileSite() {
+            if (isMobile()) {
+                // Replace this URL with the URL for the mobile site
+                window.location.href = "chp_mobile.html";
+            }
+        }
+
+        // Refresh the page every 60 seconds
+        function refreshPage() {
+            setTimeout(function() {
+                window.location.reload(true);
+            }, 60000); // Refresh every 60 seconds
+        }
+
+        window.onload = function() {
+            redirectToMobileSite(); // Check for mobile and redirect if necessary
+            refreshPage(); // Refresh the page every 60 seconds
+        };
+</script>
+</head>
+<body bgcolor="#cccccc" id="body_html">
+    <script>
+        fetch('../content_chp.txt')
+            .then(response => response.text())
+            .then(data => document.getElementById('body_html').innerHTML = data)
+            .catch(error => console.error('Error fetching content:', error));
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="60"> <!-- Refresh every 60 seconds -->
+    <link rel="stylesheet" href="../ohp.css" type="text/css">
+    <title>RMHP-CHP</title>
+    <script>
+        // Function to fetch content with cache-busting
+        function fetchContent() {
+            const timestamp = new Date().getTime(); // Current timestamp
+            fetch(`../content_chp.txt?t=${timestamp}`)
+                .then(response => response.text())
+                .then(data => document.getElementById('body_html').innerHTML = data)
+                .catch(error => console.error('Error fetching content:', error));
+        }
+
+        window.onload = function() {
+            fetchContent(); // Fetch content when the page loads
+        };
+    </script>
+</head>
+<body bgcolor="#cccccc" id="body_html">
+    <!-- The content will be dynamically loaded here -->
+</body>
+</html>
