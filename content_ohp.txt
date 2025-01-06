@@ -49,7 +49,7 @@
                                     <!-- (0) -->
                                  </td>
                                  <td id="atime" style="color: cyan;" nowrap="">
-                                   <font color="cyan">06-01-2025 14:33:41</font>
+                                   <font color="cyan">06-01-2025 14:34:41</font>
                                  </td>
                                  <td id="cpu_b" style="color: cyan;" nowrap="">
                                    <!-- <a style="cursor:pointer;text-decoration:none" onclick="openmypage('ProOB'); return false;"> -->
@@ -58,7 +58,7 @@
                                     <!-- (0) -->
                                  </td>
                                  <td id="btime" style="color: cyan;" nowrap="">
-                                   <font color="cyan">06-01-2025 14:33:41</font>
+                                   <font color="cyan">06-01-2025 14:34:41</font>
                                  </td>
                                  <td id="cpu_c" style="color: cyan;" nowrap="">
                                    <!-- <a style="cursor:pointer;text-decoration:none" onclick="openmypage('ProOC'); return false;"> -->
@@ -67,7 +67,7 @@
                                     <!-- (0) -->
                                   </td>
                                   <td id="ctime" style="color: cyan;" nowrap="">
-                                    <font color="cyan">06-01-2025 14:33:41</font>
+                                    <font color="cyan">06-01-2025 14:34:41</font>
                                   </td>
                                   <td id="cpu_d" style="color: cyan;" nowrap="">
                                     <!-- <a style="cursor:pointer;text-decoration:none" onclick="openmypage('ProOD'); return false;"> -->
@@ -76,7 +76,7 @@
                                      <!-- (0) -->
                                    </td>
                                    <td id="dtime" style="color: cyan;" nowrap="">
-                                     <font color="cyan">06-01-2025 14:33:41</font>
+                                     <font color="cyan">06-01-2025 14:34:41</font>
                                    </td>
                                  </tr>
 	                              </tbody>
@@ -100,7 +100,7 @@
                                        </td>
                                      </tr>
                                      <tr>
-                                       <td id="AF 1" style="cursor: pointer; text-decoration: none; color: rgb(255,0,0);" onclick="popup('AF_1')" width="5%" nowrap="" height="5%">
+                                       <td id="AF 1" style="cursor: pointer; text-decoration: none; color: rgb(255,255,255);" onclick="popup('AF_1')" width="5%" nowrap="" height="5%">
                                          AF 1
                                        </td>
                                        <td id="AF 3" style="cursor: pointer; text-decoration: none; color: rgb(255,255,255);" onclick="popup('AF_3')" width="5%" nowrap="" height="5%">
@@ -149,7 +149,7 @@
                                        <td width="5%">&nbsp;</td>
                                      </tr>
                                      <tr>
-                                       <td id="AF 2" style="cursor: pointer; text-decoration: none; color: rgb(255,0,0);" onclick="popup('AF_2')" width="5%" nowrap="" height="5%">
+                                       <td id="AF 2" style="cursor: pointer; text-decoration: none; color: rgb(255,255,255);" onclick="popup('AF_2')" width="5%" nowrap="" height="5%">
                                          AF 2
                                        </td>
                                        <td id="AF 4" style="cursor: pointer; text-decoration: none; color:rgb(255,255,255);" onclick="popup('AF_4')" width="5%" nowrap="" height="5%">
@@ -385,7 +385,7 @@ bool_val:0;" width="5%" nowrap="" height="5%">
                                      </td>
                                      <td id="SB3_LVL" style="color: cyan;" width="5%" nowrap="" height="5%">
                                        <a style="cursor:pointer;text-decoration:none" onclick="level_chart('SB_3')">
-                                         <div align="center">63%</div>
+                                         <div align="center">64%</div>
                                        </a>
                                      </td>
                                    </tr>
@@ -707,7 +707,7 @@ bool_val:0;" width="5%" nowrap="" height="5%">
                                       <div align="center">29%</div>
                                     </td>
                                     <td id="CR2_LVL" style="color: cyan;" width="5%" nowrap="" height="5%">
-                                      <div align="center">21%</div>
+                                      <div align="center">22%</div>
                                     </td>
                                     <td id="CR3_LVL" style="color: cyan;" width="5%" nowrap="" height="5%">
                                       <div align="center">70%</div>
@@ -1363,7 +1363,7 @@ bool_val:0;" width="5%" nowrap="" height="5%">
                                     <td colspan="17" id="iosa_title" style="color: yellow;" align="center">
                                       <font color="yellow"><b>&lt;----- IOSA STATUS(Last updated </b></font>
                                       <b>
-                                        <font color="cyan">06-01-2025, 14:33:04)-----&gt</font>
+                                        <font color="cyan">06-01-2025, 14:34:04)-----&gt</font>
                                         <!-- <font color="yellow"> )<a onclick="openmypage2('IOSA'); return false;" style="cursor:pointer"> [<u>GET IO STATUS</u>] ;</a></font> -->
                                       </b>
                                     </td>
@@ -1487,13 +1487,13 @@ bool_val:0;" width="5%" nowrap="" height="5%">
                                         <font color="yellow"><u><b>APRON FEEDER RPMs</b></u></font>                                      </td>
                                     </tr>
 	                                  <tr>
-                                      <td id="AF 1_D" style="cursor: pointer; text-decoration: underline; color:rgb(255,0,0);" onclick="rpm_chart('AF_1')" nowrap="" height="5%" align="left">
+                                      <td id="AF 1_D" style="cursor: pointer; text-decoration: underline; color:rgb(255,255,255);" onclick="rpm_chart('AF_1')" nowrap="" height="5%" align="left">
                                         AF 1
                                       </td>
                                       <td id="AF1_RPM" style="color: cyan;">
                                         0
                                       </td>
-                                      <td id="AF 2_D" style="cursor: pointer; text-decoration: underline; color: rgb(255,0,0);" onclick="rpm_chart('AF_2')" nowrap="" height="5%" align="left">
+                                      <td id="AF 2_D" style="cursor: pointer; text-decoration: underline; color: rgb(255,255,255);" onclick="rpm_chart('AF_2')" nowrap="" height="5%" align="left">
                                         AF 2
                                       </td>
                                       <td id="AF2_RPM" style="color: cyan;">
@@ -1553,7 +1553,7 @@ bool_val:0;" width="5%" nowrap="" height="5%">
                                          OAF 2A
                                        </td>
                                        <td id="OAF2A_RPM" style="color: cyan;">
-                                         85
+                                         87
                                        </td>
                                      </tr>
                                    </tbody>
@@ -1619,7 +1619,7 @@ bool_val:0;" width="5%" nowrap="" height="5%">
                                            0:00
                                          </td>
                                          <td id="OT3_TIME" style="cursor: pointer; color: cyan;" onclick="window.open('rstat.php?3','_blank');" align="center">
-                                          0:07
+                                          0:08
                                          </td>
                                          <td id="OT4_TIME" style="cursor: pointer; color: cyan;" onclick="window.open('rstat.php?4','_blank');" align="center">
                                            0:00
@@ -1635,10 +1635,10 @@ bool_val:0;" width="5%" nowrap="" height="5%">
                                            8:20
                                          </td>
                                          <td id="OT2_SLW" style="color: cyan;" align="center">
-                                           0:25
+                                           0:26
                                          </td>
                                          <td id="OT3_SLW" style="color: cyan;" align="center">
-                                           0:36
+                                           0:37
                                          </td>
                                          <td id="OT4_SLW" style="color: cyan;" align="center">
                                            8:20
@@ -2146,7 +2146,7 @@ bool_val:0;" width="5%" nowrap="" height="5%">
                                                             <tr>
                                                               <td colspan="2">
                                                                 <font color="yellow">ROUTES (Last updated </font>
-                                                                <font color="cyan">06-01-2025, 14:33:04 <font color="yellow">):</font></font>
+                                                                <font color="cyan">06-01-2025, 14:34:04 <font color="yellow">):</font></font>
                                                               </td>
                                                             </tr>
                                                             
