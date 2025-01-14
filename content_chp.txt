@@ -49,28 +49,28 @@
                                     <!-- (0) -->
                                   </td>
                                   <td id="A_TIME" style="color: cyan;" nowrap="">
-                                    <font color="cyan">14-01-2025 13:01:07</font>
+                                    <font color="cyan">14-01-2025 13:01:59</font>
                                   </td>
                                   <td id="CPU_B" style="color: cyan;" nowrap="">
                                     <a><u>Proc-B</u></a>
                                      <!-- (0) -->
                                    </td>
                                    <td id="B_TIME" style="color: cyan;" nowrap="">
-                                     <font color="cyan">14-01-2025 13:01:07</font>
+                                     <font color="cyan">14-01-2025 13:01:59</font>
                                    </td>
                                    <td id="CPU_C" style="color: cyan;" nowrap="">
                                      <a><u>Proc-C</u></a>
                                       <!-- (0) -->
                                     </td>
                                     <td id="C_TIME" style="color: cyan;" nowrap="">
-                                      <font color="cyan">14-01-2025 13:01:07</font>
+                                      <font color="cyan">14-01-2025 13:01:59</font>
                                     </td>
                                     <td id="CPU_D" style="color: cyan;" nowrap="">
                                       <a><u>Proc-D</u></a>
                                        <!-- (0) -->
                                      </td>
                                      <td id="D_TIME" style="color: cyan;" nowrap="">
-                                       <font color="cyan">14-01-2025 13:01:07</font>
+                                       <font color="cyan">14-01-2025 13:01:59</font>
                                      </td>
                                    </tr>
 	                                </tbody>
@@ -108,7 +108,7 @@
                                           CT 1
                                         </td>
                                         <td width="6%" nowrap="" height="5%">&nbsp;</td>
-                                        <td id="CT 2" style="cursor: pointer; text-decoration: none; color: rgb(0,255,0);" width="6%" height="5%">
+                                        <td id="CT 2" style="cursor: pointer; text-decoration: none; color: rgb(255,255,255);" width="6%" height="5%">
                                           CT 2
                                         </td>
                                         <td colspan="2" id="CT 2_COUNT" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="window.open('/status_chp/CT_2/0/0','_blank');" height="5%" align="center">
@@ -147,11 +147,11 @@
                                         <td id="AF 1 RPM" style="color: cyan;" width="6%" nowrap="" height="5%">
                                           <div align="center">
                                             <font color="yellow">
-                                              ( </font>2<font color="yellow"> )
+                                              ( </font>581<font color="yellow"> )
                                             </font>
                                           </div>
                                         </td>
-                                        <td id="AF 1" style="cursor: pointer; text-decoration: none; color: rgb(255,255,255);" onclick="popup('AF_1','pro_A_chp',1)" width="6%" nowrap="" height="5%">
+                                        <td id="AF 1" style="cursor: pointer; text-decoration: none; color: rgb(0,255,0);" onclick="popup('AF_1','pro_A_chp',1)" width="6%" nowrap="" height="5%">
                                           AF 1
                                         </td>
                                         <td id="AF 2 RPM" style="color: cyan;" width="6%" nowrap="" height="5%">
@@ -171,7 +171,7 @@
                                         <td id="AF 3 RPM" style="color: cyan;" width="6%" nowrap="" height="5%">
                                           <div align="center">
                                             <font color="yellow">( </font>
-                                            795
+                                            791
                                             <font color="yellow"> )</font>
                                           </div>
                                         </td>
@@ -181,13 +181,13 @@
                                         <td id="AF 4 RPM" style="color: cyan;" width="6%" nowrap="" height="5%">
                                           <div align="center">
                                             <font color="yellow">( </font>
-                                            804
+                                            802
                                             <font color="yellow"> )</font>
                                           </div>
                                         </td>
                                         <td width="5%">&nbsp;</td>
                                         <td id="GPL1_CUM_TOT" style="color: cyan;" width="6%" nowrap="" height="5%">
-                                          <div align="right">9590582</div>
+                                          <div align="right">9590601</div>
                                         </td>
                                         <td id="GPL1_MONTH_TOT" style="color: cyan;" width="6%" nowrap="" height="5%">
                                           <div align="right">0</div>
@@ -199,7 +199,7 @@
                                           <div align="right">3653</div>
                                         </td>
                                         <td id="GPL1_TDAY_TOT" style="color: cyan;" width="6%" nowrap="" height="5%">
-                                          <div align="right">2073</div>
+                                          <div align="right">2092</div>
                                         </td>
                                       </tr>
                                       <tr>
@@ -219,7 +219,7 @@
                                         <td width="5%">&nbsp;</td>
                                         <td width="5%">&nbsp;</td>
                                         <td id="GPL2_CUM_TOT" style="color: cyan;" width="6%" nowrap="" height="5%">
-                                          <div align="right">9682467</div>
+                                          <div align="right">9682470</div>
                                         </td>
                                         <td id="GPL2_MONTH_TOT" style="color: cyan;" width="6%" nowrap="" height="5%">
                                           <div align="right">0</div>
@@ -231,7 +231,7 @@
                                           <div align="right">4361</div>
                                         </td>
                                         <td id="GPL2_TDAY_TOT" style="color: cyan;" width="6%" nowrap="" height="5%">
-                                          <div align="right">1340</div>
+                                          <div align="right">1343</div>
                                         </td>
                                       </tr>
                                       <tr>
@@ -259,16 +259,16 @@
                                         <td width="5%">&nbsp;</td>
                                         <!-- TODO: Write program to calcualte cum values for CC_47 -->
                                         <td id="CC47_MONTH_TOT" style="color: cyan;" width="6%" nowrap="" height="5%">
-                                          <div align="right">10399</div>
+                                          <div align="right">10432</div>
                                         </td>
                                         <td id="CC47_DAY_AVG" style="color: cyan;" width="6%" nowrap="" height="5%">
-                                          <div align="right">742</div>
+                                          <div align="right">745</div>
                                         </td>
                                         <td id="CC47_YESDAY_TOT" style="color: cyan;" width="6%" nowrap="" height="5%">
                                           <div align="right">3511</div>
                                         </td>
                                         <td id="CC47_TODAY_TOT" style="color: cyan;" width="6%" nowrap="" height="5%">
-                                          <div align="right">1558</div>
+                                          <div align="right">1569</div>
                                         </td>
                                       </tr>
                                       <tr>
@@ -327,16 +327,16 @@
                                         <td width="5%">&nbsp;</td>
                                         <td width="5%">&nbsp;</td>
                                         <td id="CC126_MONTH_TOT" style="color: cyan;" width="6%" nowrap="" height="5%">
-                                          <div align="right">14420</div>
+                                          <div align="right">14616</div>
                                         </td>
                                         <td id="CC126_DAY_AVG" style="color: cyan;" width="6%" nowrap="" height="5%">
-                                          <div align="right">1030</div>
+                                          <div align="right">1044</div>
                                         </td>
                                         <td id="CC126_YESDAY_TOT" style="color: cyan;" width="6%" nowrap="" height="5%">
-                                          <div align="right">1030</div>
+                                          <div align="right">1044</div>
                                         </td>
                                         <td id="CC126_TODAY_TOT" style="color: cyan;" width="6%" nowrap="" height="5%">
-                                          <div align="right">1030</div>
+                                          <div align="right">1044</div>
                                         </td>
                                       </tr>
                                       <tr>
@@ -760,7 +760,7 @@
 																						
 																							<font color="00ff00">&gt;&gt;</font>
 																						
-																						708
+																						719
 																					</div>
                                         </td>
                                         <td id="ST4M2_CCTOT" style="color: cyan;" width="6%" nowrap="" height="5%">
@@ -771,7 +771,7 @@
                                         </td>
                                         <td id="MAT2_CCTOT" style="color: yellow;" width="6%" nowrap="" height="5%">
                                           <div align="right">
-																						708
+																						719
 																					</div>
                                         </td>
                                         <td width="5%">&nbsp;</td>
@@ -849,7 +849,7 @@
                                         <td id="RG2_VIB" style="color: cyan;" width="6%" nowrap="" height="5%">
                                           <div align="center">
                                             <font color="yellow">VIB: </font>
-                                            3
+                                            8
                                           </div>
                                         </td>
                                         <td id="CC 55" style="cursor: pointer; text-decoration: none; color: rgb(0,255,0);" onclick="popup('CC_55','pro_D_chp',106)" width="6%" nowrap="" height="5%">
@@ -1032,12 +1032,12 @@
                                           <td id="ST4M7_CCTOT" style="color: cyan;" width="6%" nowrap="" height="5%">
                                             <div align="right">
 																							
-  																						1030
+  																						1044
 																						</div>
                                           </td>
                                           <td id="MAT7_CCTOT" style="color: yellow;" width="6%" nowrap="" height="5%">
                                             <div align="right">
-																							1030
+																							1044
 																						</div>
                                           </td>
                                           <td width="5%">&nbsp;</td>
@@ -1088,12 +1088,12 @@
                                             <div align="right">
 																							
 
-																							1030
+																							1044
                                              </div>
                                            </td>
                                            <td id="MAT8_CCTOT" style="color: yellow;" width="6%" nowrap="" height="5%">
                                              <div align="right">
-																							 1030
+																							 1044
 																						 </div>
                                            </td>
                                            <td width="5%">&nbsp;</td>
@@ -1114,16 +1114,16 @@
                                            </td>
                                            <td id="ST2_CCTOT" style="color: yellow;" width="6%" nowrap="" height="5%">
                                              <div align="right">
-																							 1556
+																							 1567
 																						 </div>
                                            </td>
                                            <td id="ST4_CCTOT" style="color: yellow;" width="6%" nowrap="" height="5%">
                                              <div align="right">
-																							 2060
+																							 2088
 																						 </div>
                                            </td>
                                            <td id="ST234_CCTOT" style="color: yellow;" width="6%" nowrap="" height="5%"><div align="right">
-                                             3875
+                                             3914
                                            </div>
                                          </td>
                                          <td width="5%">&nbsp;</td>
@@ -1181,7 +1181,7 @@
                                          </td>
                                          <td id="ISB 5_LVL" style="color: cyan;" width="6%" nowrap="" height="5%">
                                            <div align="center">
-                                             68 %
+                                             69 %
                                            </div>
                                          </td>
                                          <td id="ISB 6_LVL" style="color: cyan;" width="6%" nowrap="" height="5%">
@@ -1198,7 +1198,7 @@
                                            <div align="center">72 %</div>
                                          </td>
                                          <td id="ISB 9_LVL" style="color: cyan;" width="6%" nowrap="" height="5%">
-                                           <div align="center">57 %</div>
+                                           <div align="center">55 %</div>
                                          </td>
                                          <td id="LVLISBS" style="color: cyan;" width="6%" nowrap="" height="5%">
                                            <div align="center">= 6.5 B</div>
@@ -1246,17 +1246,17 @@
                                              <font color="red">&nbsp;(4/2)</font>
                                            </td>
                                            <td id="GPL1_TOT" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="tot_tph_chart('GPL_1')" align="right">
-                                             <div align="right">2073</div>
+                                             <div align="right">2092</div>
                                            </td>
                                            <td id="GPL1_TPH" style="color: cyan;" align="right">
                                              <div align="right">610</div>
                                            </td>
-                                           <td id="GPL1_TIME" style="color: cyan;" align="right">5:36</td>
+                                           <td id="GPL1_TIME" style="color: cyan;" align="right">5:38</td>
                                            <!-- <td colspan="2" id="GPL1_AVG_TPH" style="color: cyan;" align="center">
                                              <div align="center">192</div>
                                            </td> -->
                                            <td colspan="2" id="GPL1_VSP_TIME" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="window.open('/status_chp/GPL_1/0/0','_blank');" align="right">
-                                             6:09
+                                             6:11
                                            </td>
 																					 <td colspan="2">&nbsp;</td>
                                          </tr>
@@ -1266,17 +1266,17 @@
                                              <font color="red">&nbsp;(3/2)</font>
                                            </td>
                                            <td id="GPL2_TOT" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="month_tph_tot_graph('GPL_2')" align="right">
-                                             <div align="right">1340</div>
+                                             <div align="right">1343</div>
                                            </td>
                                            <td id="GPL2_TPH" style="color: cyan;" align="right">
                                              <div align="right">0</div>
                                            </td>
-                                           <td id="GPL2_TIME" style="color: cyan;" align="right">4:41</td>
+                                           <td id="GPL2_TIME" style="color: cyan;" align="right">4:43</td>
                                            <!-- <td colspan="2" id="GPL2_AVG_TPH" style="color: cyan;" align="center">
                                              <div align="center"></div>
                                            </td> -->
                                            <td colspan="2" id="GPL2_VSP_TIME" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="window.open('/status_chp/GPL_2/0/0','_blank');" align="right">
-                                             5:24
+                                             5:26
                                            </td>
 																					 <td colspan="2">&nbsp;</td>
                                          </tr>
@@ -1286,17 +1286,17 @@
                                              <font color="red">&nbsp;(3/3)</font>
                                            </td>
                                            <td id="CC47_TOT" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="month_tph_tot_graph('CC_47')" align="right">
-                                             <div align="right">1558</div>
+                                             <div align="right">1569</div>
                                            </td>
                                            <td id="CC47_TPH" style="color: cyan;" align="right">
-                                             <div align="right">600</div>
+                                             <div align="right">450</div>
                                            </td>
-                                           <td id="CC50CPP_TIME" style="color: cyan;" align="right">5:05</td>
+                                           <td id="CC50CPP_TIME" style="color: cyan;" align="right">5:07</td>
                                            <!-- <td colspan="2" id="CC47_AVG_TPH" style="color: cyan;" align="center">
-                                             <div align="center">5:05</div>
+                                             <div align="center">5:07</div>
                                            </td> -->
                                            <td colspan="2" id="CC47_TIME" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="window.open('/status_chp/CC_47/0/0','_blank');" align="right">
-                                             4:28
+                                             4:30
                                            </td>
 																					 <td colspan="2">&nbsp;</td>
                                          </tr>
@@ -1311,7 +1311,7 @@
                                           <td id="CC48_TPH" style="color: cyan;" align="right">
                                             <div align="right">0</div>
                                           </td>
-                                          <td id="CC49CPP_TIME" style="color: cyan;" align="right">5:16</td>
+                                          <td id="CC49CPP_TIME" style="color: cyan;" align="right">5:18</td>
                                           <!-- <td colspan="2" id="CC48_AVG_TPH" style="color: cyan;" align="center">
                                             <div align="center">17</div>
                                           </td> -->
@@ -1323,13 +1323,13 @@
                                         <tr>
                                           <td id="CC 126_DDD" style="cursor: pointer; text-decoration: underline; color: rgb(0,255,0);" onclick="month_tph_tot_graph('CC_127')" nowrap="">
                                             CC 126
-                                            <font color="red">(12/1)</font>
+                                            <font color="red">(12/2)</font>
                                           </td>
                                           <td id="CC126_TOT" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="month_tph_tot_graph('CC_126')" align="right">
-                                            <div align="right">1030</div>
+                                            <div align="right">1044</div>
                                           </td>
                                           <td id="CC126_TPH" style="color: cyan;" align="right">
-                                            <div align="right">408</div>
+                                            <div align="right">455</div>
                                           </td>
                                           <td id="CC126CPP_TIME" style="color: cyan;" align="right">5:54</td>
                                           <!-- <td colspan="2" id="CC126_AVG_TPH" style="color: cyan;" align="center">
@@ -1345,10 +1345,10 @@
                                            CC 55
                                          </td>
                                          <td id="CC55_TOT" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="month_tph_tot_graph('CC_55')" align="right">
-                                           <div align="right">1301</div>
+                                           <div align="right">1302</div>
                                          </td>
                                          <td id="CC55_TPH" style="color: cyan;" align="right">
-                                           <div align="right">1</div>
+                                           <div align="right">9</div>
                                          </td>
                                          <td align="right">&nbsp;</td>
                                          <!-- <td colspan="2"></td> -->
@@ -1370,7 +1370,7 @@
                                         <td rowspan="2" align="right"></td>
                                         <!-- <td colspan="2" rowspan="2">&nbsp;</td> -->
                                         <td colspan="2" rowspan="2" id="CC114_TIME" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="window.open('/status_chp/CC_114/0/0','_blank');" align="right">
-                                          3:20
+                                          3:22
                                         </td>
 																				<td colspan="2" rowspan="2">&nbsp;</td>
                                       </tr>
@@ -1380,10 +1380,10 @@
                                          <font color="white">-PCI</font>
                                        </td>
                                        <td id="CC117_TOT" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="month_tph_tot_graph('CC_117')" align="right">
-                                         <div align="right">294</div>
+                                         <div align="right">308</div>
                                        </td>
                                        <td id="CC117_TPH" style="color: cyan;" align="right">
-                                         <div align="right">448</div>
+                                         <div align="right">318</div>
                                        </td>
                                      </tr>
                                      <tr>
@@ -1792,7 +1792,7 @@
                                       <tr>
                                         <td colspan="2">
                                           <font color="yellow">ROUTES (Last updated </font>
-                                          <font color="cyan">14-01-2025, 12:59:44<font color="yellow">):</font></font>
+                                          <font color="cyan">14-01-2025, 13:01:44<font color="yellow">):</font></font>
                                         </td>
                                       </tr>
                                       <tr>
@@ -1880,7 +1880,7 @@
 																							</td>
 																							<td>
 																								
-																								<a style="cursor:pointer;color:rgb(255,255,255);" onclick="popup('AF_1','pro_A_chp',1)" ;="" return="" false;="">
+																								<a style="cursor:pointer;color:rgb(0,255,0);" onclick="popup('AF_1','pro_A_chp',1)" ;="" return="" false;="">
 																									AF 1,
 																								</a>
 																								
