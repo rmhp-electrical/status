@@ -49,28 +49,28 @@
                                     <!-- (0) -->
                                   </td>
                                   <td id="A_TIME" style="color: cyan;" nowrap="">
-                                    <font color="cyan">04-02-2025 22:27:15</font>
+                                    <font color="cyan">04-02-2025 22:28:14</font>
                                   </td>
                                   <td id="CPU_B" style="color: cyan;" nowrap="">
                                     <a><u>Proc-B</u></a>
                                      <!-- (0) -->
                                    </td>
                                    <td id="B_TIME" style="color: cyan;" nowrap="">
-                                     <font color="cyan">04-02-2025 22:27:15</font>
+                                     <font color="cyan">04-02-2025 22:28:14</font>
                                    </td>
                                    <td id="CPU_C" style="color: cyan;" nowrap="">
                                      <a><u>Proc-C</u></a>
                                       <!-- (0) -->
                                     </td>
                                     <td id="C_TIME" style="color: cyan;" nowrap="">
-                                      <font color="cyan">04-02-2025 22:27:15</font>
+                                      <font color="cyan">04-02-2025 22:28:14</font>
                                     </td>
                                     <td id="CPU_D" style="color: cyan;" nowrap="">
                                       <a><u>Proc-D</u></a>
                                        <!-- (0) -->
                                      </td>
                                      <td id="D_TIME" style="color: cyan;" nowrap="">
-                                       <font color="cyan">04-02-2025 22:27:15</font>
+                                       <font color="cyan">04-02-2025 22:28:14</font>
                                      </td>
                                    </tr>
 	                                </tbody>
@@ -478,7 +478,7 @@
                                         <td id="CC 40" style="cursor: pointer; text-decoration: none; color: rgb(255,255,255);" onclick="popup('CC_40','pro_C_chp',125)" width="6%" nowrap="" height="5%">
                                           CC 40
                                         </td>
-                                        <td id="CC 104" style="cursor: pointer; text-decoration: none; color: rgb(255,0,0);" onclick="popup('CC_104','pro_C_chp',106)" width="6%" nowrap="" height="5%">
+                                        <td id="CC 104" style="cursor: pointer; text-decoration: none; color: rgb(0,255,0);" onclick="popup('CC_104','pro_C_chp',106)" width="6%" nowrap="" height="5%">
                                           CC 104
                                         </td>
                                         <td id="CC 105" style="cursor: pointer; text-decoration: none; color: rgb(255,255,255);" onclick="popup('CC_105','pro_C_chp',107)" width="6%" nowrap="" height="5%">
@@ -896,7 +896,7 @@
                                         <td id="RG2_VIB" style="color: cyan;" width="6%" nowrap="" height="5%">
                                           <div align="center">
                                             <font color="yellow">VIB: </font>
-                                            0
+                                            1
                                           </div>
                                         </td>
                                         <td id="CC 55" style="cursor: pointer; text-decoration: none; color: rgb(255,255,255);" onclick="popup('CC_55','pro_D_chp',106)" width="6%" nowrap="" height="5%">
@@ -1225,10 +1225,10 @@
                                        </tr>
                                        <tr>
                                          <td id="ISB 1_LVL" style="color: cyan;" width="6%" nowrap="" height="5%">
-                                           <div align="center">55 %</div>
+                                           <div align="center">54 %</div>
                                          </td>
                                          <td id="ISB 2_LVL" style="color: cyan;" width="6%" nowrap="" height="5%">
-                                           <div align="center">64 %</div>
+                                           <div align="center">63 %</div>
                                          </td>
                                          <td id="ISB 3_LVL" style="color: cyan;" width="6%" nowrap="" height="5%">
                                            <div align="center">86 %</div>
@@ -1238,7 +1238,7 @@
                                          </td>
                                          <td id="ISB 5_LVL" style="color: cyan;" width="6%" nowrap="" height="5%">
                                            <div align="center">
-                                             68 %
+                                             69 %
                                            </div>
                                          </td>
                                          <td id="ISB 6_LVL" style="color: cyan;" width="6%" nowrap="" height="5%">
@@ -1248,7 +1248,7 @@
                                          </td>
                                          <td id="ISB 7_LVL" style="color: cyan;" width="6%" nowrap="" height="5%">
                                            <div align="center">
-                                             42 %
+                                             41 %
                                            </div>
                                          </td>
                                          <td id="ISB 8_LVL" style="color: cyan;" width="6%" nowrap="" height="5%">
@@ -1258,7 +1258,7 @@
                                            <div align="center">85 %</div>
                                          </td>
                                          <td id="LVLISBS" style="color: cyan;" width="6%" nowrap="" height="5%">
-                                           <div align="center">= 6.3 B</div>
+                                           <div align="center">= 6.2 B</div>
                                          </td>
                                          <td width="5%">&nbsp;</td>
                                          <td width="5%">&nbsp;</td>
@@ -1736,7 +1736,7 @@
 																		 
 																			 
 																			 <tr>
-																			 	<td style="color:rgb(255,0,0)">CC 104</td>
+																			 	<td style="color:rgb(0,255,0)">CC 104</td>
 																				<td style="color:cyan;white-space: nowrap;">SCR 7</td>
 																				<td style="color:cyan;">
 																					
@@ -1749,6 +1749,8 @@
 																					
 																				</td>
 																				<td style="color:rgb(0,255,0);">
+																					
+																					BC
 																					
 																				</td>
 																				<td style="color:rgb(0,255,0);">
@@ -1851,7 +1853,7 @@
                                       <tr>
                                         <td colspan="2">
                                           <font color="yellow">ROUTES (Last updated </font>
-                                          <font color="cyan">04-02-2025, 22:26:44<font color="yellow">):</font></font>
+                                          <font color="cyan">04-02-2025, 22:27:44<font color="yellow">):</font></font>
                                         </td>
                                       </tr>
                                       <tr>
@@ -1895,7 +1897,7 @@
 																									VF 101,
 																								</a>
 																								
-																								<a style="cursor:pointer;color:rgb(255,0,0);" onclick="popup('CC_104','pro_C_chp',106)" ;="" return="" false;="">
+																								<a style="cursor:pointer;color:rgb(0,255,0);" onclick="popup('CC_104','pro_C_chp',106)" ;="" return="" false;="">
 																									CC 104
 																								</a>
 																								
