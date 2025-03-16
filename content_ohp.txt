@@ -49,7 +49,7 @@
                                     <!-- (0) -->
                                  </td>
                                  <td id="atime" style="color: cyan;" nowrap="">
-                                   <font color="cyan">16-03-2025 15:13:50</font>
+                                   <font color="cyan">16-03-2025 15:14:12</font>
                                  </td>
                                  <td id="cpu_b" style="color: cyan;" nowrap="">
                                    <!-- <a style="cursor:pointer;text-decoration:none" onclick="openmypage('ProOB'); return false;"> -->
@@ -58,7 +58,7 @@
                                     <!-- (0) -->
                                  </td>
                                  <td id="btime" style="color: cyan;" nowrap="">
-                                   <font color="cyan">16-03-2025 15:13:50</font>
+                                   <font color="cyan">16-03-2025 15:14:12</font>
                                  </td>
                                  <td id="cpu_c" style="color: cyan;" nowrap="">
                                    <!-- <a style="cursor:pointer;text-decoration:none" onclick="openmypage('ProOC'); return false;"> -->
@@ -67,7 +67,7 @@
                                     <!-- (0) -->
                                   </td>
                                   <td id="ctime" style="color: cyan;" nowrap="">
-                                    <font color="cyan">16-03-2025 15:13:50</font>
+                                    <font color="cyan">16-03-2025 15:14:12</font>
                                   </td>
                                   <td id="cpu_d" style="color: cyan;" nowrap="">
                                     <!-- <a style="cursor:pointer;text-decoration:none" onclick="openmypage('ProOD'); return false;"> -->
@@ -76,7 +76,7 @@
                                      <!-- (0) -->
                                    </td>
                                    <td id="dtime" style="color: cyan;" nowrap="">
-                                     <font color="cyan">16-03-2025 15:13:50</font>
+                                     <font color="cyan">16-03-2025 15:14:12</font>
                                    </td>
                                  </tr>
 	                              </tbody>
@@ -341,7 +341,7 @@
                                      <td id="CO 13" style="cursor: pointer; text-decoration: none; color: rgb(255,255,255); background-color: rgb(0, 0, 51);" onclick="popup('CO_13')" width="5%" nowrap="" height="5%">
                                        CO 13
                                      </td>
-                                     <td id="RSCO 10A" style="cursor: pointer; text-decoration: none; color: rgb(255,255,255); background-color: rgb(0, 0, 51);" onclick="popup('RSCO_10A')" width="5%" nowrap="" height="5%">RSCO 10A</td>
+                                     <td id="RSCO 10A" style="cursor: pointer; text-decoration: none; color: rgb(0,255,0); background-color: rgb(0, 0, 51);" onclick="popup('RSCO_10A')" width="5%" nowrap="" height="5%">RSCO 10A</td>
                                      <td width="5%">&nbsp;</td>
                                      <td width="5%">&nbsp;</td>
                                      <td width="5%">&nbsp;</td>
@@ -1360,7 +1360,7 @@
                                     <td colspan="17" id="iosa_title" style="color: yellow;" align="center">
                                       <font color="yellow"><b>&lt;----- IOSA STATUS(Last updated </b></font>
                                       <b>
-                                        <font color="cyan">16-03-2025, 15:13:44)-----&gt</font>
+                                        <font color="cyan">16-03-2025, 15:14:04)-----&gt</font>
                                         <!-- <font color="yellow"> )<a onclick="openmypage2('IOSA'); return false;" style="cursor:pointer"> [<u>GET IO STATUS</u>] ;</a></font> -->
                                       </b>
                                     </td>
@@ -1516,7 +1516,7 @@
                                          AF 5
                                        </td>
                                        <td id="AF5_RPM" style="color: cyan;">
-                                         1
+                                         0
                                        </td>
                                        <td id="AF 6_D" style="cursor: pointer; text-decoration: underline; color: rgb(255,255,255);" onclick="rpm_chart('AF_6')" nowrap="" height="5%" align="left">
                                          AF 6
@@ -1632,10 +1632,10 @@
                                            8:20
                                          </td>
                                          <td id="OT2_SLW" style="color: cyan;" align="center">
-                                           5:38
+                                           5:39
                                          </td>
                                          <td id="OT3_SLW" style="color: cyan;" align="center">
-                                           0:05
+                                           0:06
                                          </td>
                                          <td id="OT4_SLW" style="color: cyan;" align="center">
                                            8:20
@@ -1756,7 +1756,7 @@
                                             173
                                           </td>
                                           <td id="CO66_TPH" style="color: cyan;" align="right">
-                                            11
+                                            0
                                           </td>
                                           <td id="CO66_TIME" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="window.open('rstat.php?10','_blank');" align="center">
                                             0:35
@@ -1900,10 +1900,10 @@
                                                   CO 84
                                               </td>
                                               <td id="CO77_TOT" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="tot_tph_chart('CO_77')" align="right">
-                                                21
+                                                22
                                               </td>
                                               <td id="CO77_TPH" style="color: cyan;" align="right">
-                                                179
+                                                281
                                               </td>
                                               <td align="center">
                                               </td>
@@ -2143,7 +2143,7 @@
                                                             <tr>
                                                               <td colspan="2">
                                                                 <font color="yellow">ROUTES (Last updated </font>
-                                                                <font color="cyan">16-03-2025, 15:13:44 <font color="yellow">):</font></font>
+                                                                <font color="cyan">16-03-2025, 15:14:04 <font color="yellow">):</font></font>
                                                               </td>
                                                             </tr>
                                                             
@@ -2183,7 +2183,7 @@
                                                                       CO 2,
                                                                     </a>
                                                                     
-                                                                    <a style="cursor:pointer;color:rgb(255,255,255);" onclick="popup('RSCO_10A')" ;="" return="" false;="">
+                                                                    <a style="cursor:pointer;color:rgb(0,255,0);" onclick="popup('RSCO_10A')" ;="" return="" false;="">
                                                                       RSCO 10A,
                                                                     </a>
                                                                     
