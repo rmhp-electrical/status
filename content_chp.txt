@@ -49,28 +49,28 @@
                                     <!-- (0) -->
                                   </td>
                                   <td id="A_TIME" style="color: cyan;" nowrap="">
-                                    <font color="cyan">24-04-2025 14:32:56</font>
+                                    <font color="cyan">24-04-2025 14:34:56</font>
                                   </td>
                                   <td id="CPU_B" style="color: cyan;" nowrap="">
                                     <a><u>Proc-B</u></a>
                                      <!-- (0) -->
                                    </td>
                                    <td id="B_TIME" style="color: cyan;" nowrap="">
-                                     <font color="cyan">24-04-2025 14:32:56</font>
+                                     <font color="cyan">24-04-2025 14:34:56</font>
                                    </td>
                                    <td id="CPU_C" style="color: cyan;" nowrap="">
                                      <a><u>Proc-C</u></a>
                                       <!-- (0) -->
                                     </td>
                                     <td id="C_TIME" style="color: cyan;" nowrap="">
-                                      <font color="cyan">24-04-2025 14:32:56</font>
+                                      <font color="cyan">24-04-2025 14:34:56</font>
                                     </td>
                                     <td id="CPU_D" style="color: cyan;" nowrap="">
                                       <a><u>Proc-D</u></a>
                                        <!-- (0) -->
                                      </td>
                                      <td id="D_TIME" style="color: cyan;" nowrap="">
-                                       <font color="cyan">24-04-2025 14:32:56</font>
+                                       <font color="cyan">24-04-2025 14:34:56</font>
                                      </td>
                                    </tr>
 	                                </tbody>
@@ -104,15 +104,15 @@
                                         <td colspan="2" id="CT 1_COUNT" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="window.open('/status_chp/CT_1/0/0','_blank');" height="5%" align="center">
                                           TIPPLED 1
                                         </td>
-                                        <td id="CT 1" style="cursor: pointer; text-decoration: none; color: rgb(255,0,0);" width="6%" height="5%">
+                                        <td id="CT 1" style="cursor: pointer; text-decoration: none; color: rgb(0,255,0);" width="6%" height="5%">
                                           CT 1
                                         </td>
                                         <td width="6%" nowrap="" height="5%">&nbsp;</td>
-                                        <td id="CT 2" style="cursor: pointer; text-decoration: none; color: rgb(0,255,0);" width="6%" height="5%">
+                                        <td id="CT 2" style="cursor: pointer; text-decoration: none; color: rgb(255,0,0);" width="6%" height="5%">
                                           CT 2
                                         </td>
                                         <td colspan="2" id="CT 2_COUNT" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="window.open('/status_chp/CT_2/0/0','_blank');" height="5%" align="center">
-                                          1 TIPPLED
+                                          2 TIPPLED
                                         </td>
                                         <td width="6%" nowrap="" height="5%">&nbsp;</td>
                                         <td width="6%" nowrap="" height="5%">&nbsp;</td>
@@ -147,7 +147,7 @@
                                         <td id="AF 1 RPM" style="color: cyan;" width="6%" nowrap="" height="5%">
                                           <div align="center">
                                             <font color="yellow">
-                                              ( </font>743<font color="yellow"> )
+                                              ( </font>740<font color="yellow"> )
                                             </font>
                                           </div>
                                         </td>
@@ -157,7 +157,7 @@
                                         <td id="AF 2 RPM" style="color: cyan;" width="6%" nowrap="" height="5%">
                                           <div align="center">
                                             <font color="yellow">( </font>
-                                            752
+                                            747
                                             <font color="yellow"> )</font>
                                           </div>
                                         </td>
@@ -187,7 +187,7 @@
                                         </td>
                                         <td width="5%">&nbsp;</td>
                                         <td id="GPL1_CUM_TOT" style="color: cyan;" width="6%" nowrap="" height="5%">
-                                          <div align="right">10360355</div>
+                                          <div align="right">10360375</div>
                                         </td>
                                         <td id="GPL1_MONTH_TOT" style="color: cyan;" width="6%" nowrap="" height="5%">
                                           <!-- <div align="right">181731</div> -->
@@ -201,7 +201,7 @@
                                           <div align="right">6838</div>
                                         </td>
                                         <td id="GPL1_TDAY_TOT" style="color: cyan;" width="6%" nowrap="" height="5%">
-                                          <div align="right">4095</div>
+                                          <div align="right">4115</div>
                                         </td>
                                       </tr>
                                       <tr>
@@ -363,7 +363,7 @@
                                         <td width="5%">&nbsp;</td>
                                         <td width="5%">&nbsp;</td>
                                         <td width="5%">&nbsp;</td>
-                                        <td id="CC 23" style="cursor: pointer; text-decoration: none; color: rgb(255,255,255);" onclick="popup('CC_23','pro_B_chp',119)" width="6%" nowrap="" height="5%">
+                                        <td id="CC 23" style="cursor: pointer; text-decoration: none; color: rgb(0,255,0);" onclick="popup('CC_23','pro_B_chp',119)" width="6%" nowrap="" height="5%">
                                           CC 23
                                         </td>
                                         <td id="CC 22" style="cursor: pointer; text-decoration: none; color: rgb(255,0,0);" onclick="popup('CC_22','pro_B_chp',118)" width="6%" nowrap="" height="5%">
@@ -415,7 +415,7 @@
                                         <td id="CC 25" style="cursor: pointer; text-decoration: none; color: rgb(255,255,255);" onclick="popup('CC_25','pro_B_chp',113)" width="6%" nowrap="" height="5%">
                                           CC 25
                                         </td>
-                                        <td id="CC 26" style="cursor: pointer; text-decoration: none; color: rgb(255,255,255);" onclick="popup('CC_26','pro_B_chp',114)" width="6%" nowrap="" height="5%">
+                                        <td id="CC 26" style="cursor: pointer; text-decoration: none; color: rgb(0,255,0);" onclick="popup('CC_26','pro_B_chp',114)" width="6%" nowrap="" height="5%">
                                           CC 26
                                         </td>
                                         <td id="CC 27" style="cursor: pointer; text-decoration: none; color: rgb(0,255,0);" onclick="popup('CC_27','pro_B_chp',115)" width="6%" nowrap="" height="5%">
@@ -425,7 +425,7 @@
                                         <td id="CC 25A" style="cursor: pointer; text-decoration: none; color: rgb(255,0,0);" onclick="popup('CC_25A','pro_B_chp',126)" width="6%" nowrap="" height="5%">
                                           CC 25A
                                         </td>
-                                        <td id="CC 26A" style="cursor: pointer; text-decoration: none; color: rgb(255,0,0);" onclick="popup('CC_26A','pro_B_chp',125)" width="6%" nowrap="" height="5%">
+                                        <td id="CC 26A" style="cursor: pointer; text-decoration: none; color: rgb(0,255,0);" onclick="popup('CC_26A','pro_B_chp',125)" width="6%" nowrap="" height="5%">
                                           CC 26A
                                         </td>
                                         <td id="CC 27A" style="cursor: pointer; text-decoration: none; color: rgb(0,255,0);" onclick="popup('CC_27A','pro_B_chp',124)" width="6%" nowrap="" height="5%">
@@ -533,7 +533,7 @@
                                           CC 130
                                         </td>
                                         <td width="5%">&nbsp;</td>
-                                        <td id="CC 52" style="cursor: pointer; text-decoration: none; color: rgb(255,0,0);" onclick="popup('CC_52','pro_C_chp',122)" width="6%" nowrap="" height="5%">
+                                        <td id="CC 52" style="cursor: pointer; text-decoration: none; color: rgb(255,255,255);" onclick="popup('CC_52','pro_C_chp',122)" width="6%" nowrap="" height="5%">
                                           CC 52
                                         </td>
                                         <td width="5%">&nbsp;</td>
@@ -565,7 +565,7 @@
                                             15 %
                                           </div>
                                         </td>
-                                        <td id="CC 53" style="cursor: pointer; text-decoration: none; color: rgb(0,255,0);" onclick="popup('CC_53','pro_C_chp',114)" width="6%" nowrap="" height="5%">
+                                        <td id="CC 53" style="cursor: pointer; text-decoration: none; color: rgb(255,255,255);" onclick="popup('CC_53','pro_C_chp',114)" width="6%" nowrap="" height="5%">
                                           CC 53
                                         </td>
                                         <td width="5%">&nbsp;</td><td width="5%">&nbsp;</td>
@@ -1230,10 +1230,10 @@
                                            <div align="center">41 %</div>
                                          </td>
                                          <td id="ISB 2_LVL" style="color: cyan;" width="6%" nowrap="" height="5%">
-                                           <div align="center">1 %</div>
+                                           <div align="center">0 %</div>
                                          </td>
                                          <td id="ISB 3_LVL" style="color: cyan;" width="6%" nowrap="" height="5%">
-                                           <div align="center">32 %</div>
+                                           <div align="center">34 %</div>
                                          </td>
                                          <td id="ISB 4_LVL" style="color: cyan;" width="6%" nowrap="" height="5%">
                                            <div align="center">68 %</div>
@@ -1254,7 +1254,7 @@
                                            </div>
                                          </td>
                                          <td id="ISB 8_LVL" style="color: cyan;" width="6%" nowrap="" height="5%">
-                                           <div align="center">64 %</div>
+                                           <div align="center">63 %</div>
                                          </td>
                                          <td id="ISB 9_LVL" style="color: cyan;" width="6%" nowrap="" height="5%">
                                            <div align="center">92 %</div>
@@ -1305,15 +1305,15 @@
                                              <font color="red">&nbsp;(0/0)</font>
                                            </td>
                                            <td id="GPL1_TOT" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="tot_tph_chart('GPL_1')" align="right">
-                                             <div align="right">57</div>
+                                             <div align="right">77</div>
                                            </td>
                                            <td id="GPL1_TPH" style="color: cyan;" align="right">
-                                             <div align="right">735</div>
+                                             <div align="right">750</div>
                                            </td>
-                                           <td id="GPL1_TIME" style="color: cyan;" align="right">0:05</td>
-																					 <td colspan="2" id="GPL1_AVG_TPH" style="color: cyan;" align="right">712</td>
+                                           <td id="GPL1_TIME" style="color: cyan;" align="right">0:07</td>
+																					 <td colspan="2" id="GPL1_AVG_TPH" style="color: cyan;" align="right">641</td>
                                            <td colspan="2" id="GPL1_VSP_TIME" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="window.open('/status_chp/GPL_1/0/0','_blank');" align="right">
-                                             0:07
+                                             0:09
                                            </td>
 																					 <!-- <td colspan="2">&nbsp;</td> -->
                                          </tr>
@@ -1877,7 +1877,7 @@
                                       <tr>
                                         <td colspan="2">
                                           <font color="yellow">ROUTES (Last updated </font>
-                                          <font color="cyan">24-04-2025, 14:32:44<font color="yellow">):</font></font>
+                                          <font color="cyan">24-04-2025, 14:34:44<font color="yellow">):</font></font>
                                         </td>
                                       </tr>
                                       <tr>
@@ -1939,15 +1939,15 @@
 																									CC 18,
 																								</a>
 																								
-																								<a style="cursor:pointer;color:rgb(255,255,255);" onclick="popup('CC_23','pro_B_chp',119)" ;="" return="" false;="">
+																								<a style="cursor:pointer;color:rgb(0,255,0);" onclick="popup('CC_23','pro_B_chp',119)" ;="" return="" false;="">
 																									CC 23,
 																								</a>
 																								
-																								<a style="cursor:pointer;color:rgb(255,255,255);" onclick="popup('CC_26','pro_B_chp',114)" ;="" return="" false;="">
+																								<a style="cursor:pointer;color:rgb(0,255,0);" onclick="popup('CC_26','pro_B_chp',114)" ;="" return="" false;="">
 																									CC 26,
 																								</a>
 																								
-																								<a style="cursor:pointer;color:rgb(255,0,0);" onclick="popup('CC_26A','pro_B_chp',125)" ;="" return="" false;="">
+																								<a style="cursor:pointer;color:rgb(0,255,0);" onclick="popup('CC_26A','pro_B_chp',125)" ;="" return="" false;="">
 																									CC 26A,
 																								</a>
 																								
@@ -2141,16 +2141,8 @@
 																							</td>
 																							<td>
 																								
-																								<a style="cursor:pointer;color:rgb(255,255,255);" onclick="popup('CC_33','pro_C_chp',117)" ;="" return="" false;="">
-																									CC 33,
-																								</a>
-																								
-																								<a style="cursor:pointer;color:rgb(255,0,0);" onclick="popup('CC_52','pro_C_chp',122)" ;="" return="" false;="">
-																									CC 52,
-																								</a>
-																								
-																								<a style="cursor:pointer;color:rgb(0,255,0);" onclick="popup('CC_53','pro_C_chp',114)" ;="" return="" false;="">
-																									CC 53,
+																								<a style="cursor:pointer;color:rgb(255,0,0);" onclick="popup('CC_111','pro_C_chp',100)" ;="" return="" false;="">
+																									CC 111,
 																								</a>
 																								
 																								<a style="cursor:pointer;color:rgb(255,255,255);" onclick="popup('CC_51','pro_D_chp',151)" ;="" return="" false;="">
