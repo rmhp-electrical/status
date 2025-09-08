@@ -49,7 +49,7 @@
                                     <!-- (0) -->
                                  </td>
                                  <td id="atime" style="color: cyan;" nowrap="">
-                                   <font color="cyan">08-09-2025 12:56:57</font>
+                                   <font color="cyan">08-09-2025 12:58:55</font>
                                  </td>
                                  <td id="cpu_b" style="color: cyan;" nowrap="">
                                    <!-- <a style="cursor:pointer;text-decoration:none" onclick="openmypage('ProOB'); return false;"> -->
@@ -58,7 +58,7 @@
                                     <!-- (0) -->
                                  </td>
                                  <td id="btime" style="color: cyan;" nowrap="">
-                                   <font color="cyan">08-09-2025 12:56:57</font>
+                                   <font color="cyan">08-09-2025 12:58:55</font>
                                  </td>
                                  <td id="cpu_c" style="color: cyan;" nowrap="">
                                    <!-- <a style="cursor:pointer;text-decoration:none" onclick="openmypage('ProOC'); return false;"> -->
@@ -67,7 +67,7 @@
                                     <!-- (0) -->
                                   </td>
                                   <td id="ctime" style="color: cyan;" nowrap="">
-                                    <font color="cyan">08-09-2025 12:56:57</font>
+                                    <font color="cyan">08-09-2025 12:58:55</font>
                                   </td>
                                   <td id="cpu_d" style="color: cyan;" nowrap="">
                                     <!-- <a style="cursor:pointer;text-decoration:none" onclick="openmypage('ProOD'); return false;"> -->
@@ -76,7 +76,7 @@
                                      <!-- (0) -->
                                    </td>
                                    <td id="dtime" style="color: cyan;" nowrap="">
-                                     <font color="cyan">08-09-2025 12:56:57</font>
+                                     <font color="cyan">08-09-2025 12:58:55</font>
                                    </td>
                                  </tr>
 	                              </tbody>
@@ -295,7 +295,7 @@ bool_val:1;" width="5%" nowrap="" height="5%">
                                        <div align="center">20%</div>
                                      </td>
                                      <td id="SB7A_LVL" style="color: cyan;" width="5%" nowrap="" height="5%" bgcolor="#000060">
-                                       <div align="center">79%</div>
+                                       <div align="center">80%</div>
                                      </td>
                                      <td id="CO 36" style="cursor: pointer; text-decoration: none; color: rgb(255,255,255);" onclick="popup('CO_36')" width="5%" nowrap="" height="5%">
                                        CO 36
@@ -684,7 +684,7 @@ bool_val:1;" width="5%" nowrap="" height="5%">
                                     <td id="CO 30" style="cursor: pointer; text-decoration: none; color: rgb(255,255,255);" onclick="popup('CO_30')" width="5%" nowrap="" height="5%">
                                       CO 30
                                     </td>
-                                    <td id="CO 34" style="cursor: pointer; text-decoration: none; color: rgb(255,0,0);" onclick="popup('CO_34')" width="5%" nowrap="" height="5%">
+                                    <td id="CO 34" style="cursor: pointer; text-decoration: none; color: rgb(255,255,255);" onclick="popup('CO_34')" width="5%" nowrap="" height="5%">
                                       CO 34
                                     </td>
                                     <td id="CO 35" style="cursor: pointer; text-decoration: none; color: rgb(0,255,0);" onclick="popup('CO_35')" width="5%" nowrap="" height="5%">
@@ -1371,7 +1371,7 @@ bool_val:1;" width="5%" nowrap="" height="5%">
                                     <td colspan="17" id="iosa_title" style="color: yellow;" align="center">
                                       <font color="yellow"><b>&lt;----- IOSA STATUS(Last updated </b></font>
                                       <b>
-                                        <font color="cyan">08-09-2025, 12:56:44)-----&gt</font>
+                                        <font color="cyan">08-09-2025, 12:58:44)-----&gt</font>
                                         <!-- <font color="yellow"> )<a onclick="openmypage2('IOSA'); return false;" style="cursor:pointer"> [<u>GET IO STATUS</u>] ;</a></font> -->
                                       </b>
                                     </td>
@@ -1382,10 +1382,10 @@ bool_val:1;" width="5%" nowrap="" height="5%">
                                         <font color="yellow"><u>STKG</u> &gt;&gt;</font>
                                       <!-- </a> -->
                                     </td>
-                                    <td id="OAF 1A" style="cursor: pointer; text-decoration: none; color: rgb(0,255,0);" onclick="popup('OAF_1A')" width="5%" nowrap="" height="5%">
+                                    <td id="OAF 1A" style="cursor: pointer; text-decoration: none; color: rgb(255,255,255);" onclick="popup('OAF_1A')" width="5%" nowrap="" height="5%">
                                       OAF 1A
                                     </td>
-                                    <td id="OAF 2A" style="cursor: pointer; text-decoration: none; color: rgb(255,255,255);" onclick="popup('OAF_2A')" width="5%" nowrap="" height="5%">
+                                    <td id="OAF 2A" style="cursor: pointer; text-decoration: none; color: rgb(0,255,0);" onclick="popup('OAF_2A')" width="5%" nowrap="" height="5%">
                                       OAF 2A
                                     </td>
                                     <td id="OC 1A" style="cursor: pointer; text-decoration: none; color: rgb(0,255,0);" onclick="popup('OC_1A')" width="5%" nowrap="" height="5%">
@@ -1551,17 +1551,17 @@ bool_val:1;" width="5%" nowrap="" height="5%">
                                        </td>
                                      </tr>
                                      <tr>
-                                       <td id="OAF 1A_D" style="cursor: pointer; text-decoration: underline; color: rgb(0,255,0);" onclick="rpm_chart('OAF_1A')" nowrap="" height="5%" align="left">
+                                       <td id="OAF 1A_D" style="cursor: pointer; text-decoration: underline; color: rgb(255,255,255);" onclick="rpm_chart('OAF_1A')" nowrap="" height="5%" align="left">
                                          OAF 1A
                                        </td>
                                        <td id="OAF1A_RPM" style="color: cyan;">
-                                         229
+                                         0
                                        </td>
-                                       <td id="OAF 2A_D" style="cursor: pointer; text-decoration: underline; color: rgb(255,255,255);" onclick="rpm_chart('OAF_2A')" nowrap="" height="5%" align="left">
+                                       <td id="OAF 2A_D" style="cursor: pointer; text-decoration: underline; color: rgb(0,255,0);" onclick="rpm_chart('OAF_2A')" nowrap="" height="5%" align="left">
                                          OAF 2A
                                        </td>
                                        <td id="OAF2A_RPM" style="color: cyan;">
-                                         0
+                                         216
                                        </td>
                                      </tr>
                                    </tbody>
@@ -1624,7 +1624,7 @@ bool_val:1;" width="5%" nowrap="" height="5%">
                                            0:13
                                          </td>
                                          <td id="OT2_TIME" style="cursor: pointer; color: cyan;" onclick="window.open('rstat.php?2','_blank');" align="center">
-                                           0:05
+                                           0:07
                                          </td>
                                          <td id="OT3_TIME" style="cursor: pointer; color: cyan;" onclick="window.open('rstat.php?3','_blank');" align="center">
                                           3:47
@@ -1640,13 +1640,13 @@ bool_val:1;" width="5%" nowrap="" height="5%">
                                        </tr>
                                        <tr>
                                          <td id="OT1_SLW" style="color: cyan;" height="5%" align="center">
-                                           7:52
+                                           7:54
                                          </td>
                                          <td id="OT2_SLW" style="color: cyan;" align="center">
-                                           0:03
+                                           0:06
                                          </td>
                                          <td id="OT3_SLW" style="color: cyan;" align="center">
-                                           0:23
+                                           0:25
                                          </td>
                                          <td id="OT4_SLW" style="color: cyan;" align="center">
                                            8:20
@@ -1694,13 +1694,13 @@ bool_val:1;" width="5%" nowrap="" height="5%">
                                           CO 8A
                                         </td>
                                         <td id="CO8A_TOT" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="tot_tph_chart('CO_8A')" align="right">
-                                          1283
+                                          1300
                                         </td>
                                         <td id="CO8A_TPH" style="color: cyan;" align="right">
-                                          524
+                                          456
                                         </td>
                                         <td id="CO8A_TIME" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="window.open('rstat.php?18','_blank');" align="center">
-                                          5:15
+                                          5:17
                                         </td>
                                       </tr>
 	                                     <tr>
@@ -1709,13 +1709,13 @@ bool_val:1;" width="5%" nowrap="" height="5%">
                                             <font color='white'> -BF 1&2 </font>
                                          </td>
                                          <td id="CO28_TOT" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="tot_tph_chart('CO_28_BF_1_2_TOT', 'CO_28',true)" align="right">
-                                           5
+                                           6
                                          </td>
                                          <td id="CO28_TPH" style="color: cyan;" align="right" rowspan="2">
                                            9
                                          </td>
                                          <td id="CO28_TIME" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="window.open('rstat.php?22','_blank');" align="center" rowspan="2">
-                                           3:54
+                                           3:56
                                          </td>
                                        </tr>
                                        <tr>
@@ -1732,7 +1732,7 @@ bool_val:1;" width="5%" nowrap="" height="5%">
                                            9
                                          </td>
                                          <td id="CO28_TIME" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="window.open('rstat.php?22','_blank');" align="center">
-                                           3:54
+                                           3:56
                                          </td> -->
                                        </tr>
 	                                      <tr>
@@ -1760,7 +1760,7 @@ bool_val:1;" width="5%" nowrap="" height="5%">
                                              1
                                            </td>
                                            <td id="CO49_TIME" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="window.open('rstat.php?17','_blank');" align="center">
-                                             3:46
+                                             3:48
                                            </td>
                                          </tr>
 	                                        <tr>
@@ -1782,13 +1782,13 @@ bool_val:1;" width="5%" nowrap="" height="5%">
                                             CO 66
                                           </td>
                                           <td id="CO66_TOT" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="tot_tph_chart('CO_66')" align="right">
-                                            1735
+                                            1737
                                           </td>
                                           <td id="CO66_TPH" style="color: cyan;" align="right">
-                                            62
+                                            17
                                           </td>
                                           <td id="CO66_TIME" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="window.open('rstat.php?10','_blank');" align="center">
-                                            4:43
+                                            4:45
                                           </td>
                                         </tr>
 	                                       <tr>
@@ -1800,10 +1800,10 @@ bool_val:1;" width="5%" nowrap="" height="5%">
                                            239
                                          </td>
                                          <td rowspan="3" id="CO67_TPH" style="color: cyan;" valign="center" align="right">
-                                           0
+                                           282
                                          </td>
                                          <td rowspan="3" id="CO67_TIME" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="window.open('rstat.php?11','_blank');" align="center">
-                                           3:33
+                                           3:35
                                          </td>
                                        </tr>
 	                                      <tr>
@@ -1825,7 +1825,7 @@ bool_val:1;" width="5%" nowrap="" height="5%">
                                              </div>
                                            </td>
                                            <td id="CO67_BF3_TOT" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="tot_tph_chart('CO_38A','CO_67')" align="right">
-                                             197
+                                             199
                                            </td>
                                            <td align="center">
                                            </td>
@@ -1849,10 +1849,10 @@ bool_val:1;" width="5%" nowrap="" height="5%">
                                                CO 11A
                                              </td>
                                              <td id="CO11A_TOT" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="tot_tph_chart('CO_11A')" align="right">
-                                               1189
+                                               1191
                                              </td>
                                              <td id="CO11A_TPH" style="color: cyan;" align="right">
-                                               245
+                                               0
                                              </td>
                                              <td align="center">
                                              </td>
@@ -1875,10 +1875,10 @@ bool_val:1;" width="5%" nowrap="" height="5%">
                                                  CO 13A
                                                </td>
                                                <td id="CO13A_TOT" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="tot_tph_chart('CO_13A')" align="right">
-                                                 654
+                                                 660
                                                </td>
                                                <td id="CO13A_TPH" style="color: cyan;" align="right">
-                                                 165
+                                                 181
                                                </td>
                                                <td align="center">
                                                </td>
@@ -1888,13 +1888,13 @@ bool_val:1;" width="5%" nowrap="" height="5%">
                                                   CO 14A
                                                 </td>
                                                 <td id="CO14A_TOT" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="tot_tph_chart('CO_14A')" align="right">
-                                                  724
+                                                  725
                                                 </td>
                                                 <td id="CO14A_TPH" style="color: cyan;" align="right">
-                                                  180
+                                                  2
                                                 </td>
                                                 <td id="CO14A_TIME" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="window.open('rstat.php?21','_blank');" align="center">
-                                                  4:22
+                                                  4:25
                                                 </td>
                                               </tr>
                                               <tr>
@@ -1902,13 +1902,13 @@ bool_val:1;" width="5%" nowrap="" height="5%">
                                                   CO 20
                                                 </td>
                                                 <td id="CO20_TOT" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="tot_tph_chart('CO_20')" align="right">
-                                                  1121
+                                                  1122
                                                 </td>
                                                 <td id="CO20_TPH" style="color: cyan;" align="right">
-                                                  181
+                                                  3
                                                 </td>
                                                 <td id="CO20_TIME" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="window.open('rstat.php?26','_blank');" align="center">
-                                                  4:12
+                                                  4:14
                                                 </td>
                                               </tr>
 	                                             <tr>
@@ -1916,10 +1916,10 @@ bool_val:1;" width="5%" nowrap="" height="5%">
                                                    CO 42A
                                                  </td>
                                                  <td id="CO42A_TOT" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="tot_tph_chart('CO_42A')" align="right">
-                                                   758
+                                                   775
                                                  </td>
                                                  <td id="CO42A_TPH" style="color: cyan;" align="right">
-                                                   548
+                                                   489
                                                  </td>
                                                  <td id="CO42A_TIME" align="center">
                                                  </td>
@@ -1942,10 +1942,10 @@ bool_val:1;" width="5%" nowrap="" height="5%">
                                                  CO 85
                                                </td>
                                                <td id="CO78_TOT" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="tot_tph_chart('CO_78')" align="right">
-                                                 224
+                                                 234
                                                </td>
                                                <td id="CO78_TPH" style="color: cyan;" align="right">
-                                                 297
+                                                 281
                                                </td>
                                                <td align="center">
                                                </td>
@@ -1955,10 +1955,10 @@ bool_val:1;" width="5%" nowrap="" height="5%">
                                                   OC 7A
                                                 </td>
                                                 <td id="OC6A_TOT" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="tot_tph_chart('OC_7A')" align="right">
-                                                  497
+                                                  501
                                                 </td>
                                                 <td id="OC6A_TPH" style="color: cyan;" align="right">
-                                                  88
+                                                  94
                                                 </td>
                                                 <td align="right">
                                                 </td>
@@ -2009,7 +2009,7 @@ bool_val:1;" width="5%" nowrap="" height="5%">
                                                   <td></td>
                                                   <td></td>
                                                   <td id="CO25_TIME" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="window.open('rstat.php?12','_blank');" align="center">
-                                                    4:23
+                                                    4:25
                                                   </td>
                                                 </tr>
 	                                               <tr>
@@ -2053,7 +2053,7 @@ bool_val:1;" width="5%" nowrap="" height="5%">
                                                       </td>
                                                     </tr>
 	                                                   <tr>
-                                                       <td id="CO 34_DDD" style="color: rgb(255,0,0);" nowrap="" height="5%">
+                                                       <td id="CO 34_DDD" style="color: rgb(255,255,255);" nowrap="" height="5%">
                                                          CO 34
                                                        </td>
                                                        <td></td>
@@ -2069,7 +2069,7 @@ bool_val:1;" width="5%" nowrap="" height="5%">
                                                         <td></td>
                                                         <td></td>
                                                         <td id="CO35_TIME" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="window.open('rstat.php?20','_blank');" align="center">
-                                                          1:35
+                                                          1:37
                                                         </td>
                                                       </tr>
 	                                                   </tbody>
@@ -2093,13 +2093,13 @@ bool_val:1;" width="5%" nowrap="" height="5%">
                                                              <div align="center">2</div>
                                                            </td>
                                                            <td id="BC1_TIME" style="color: cyan;" align="center">
-                                                             4:49
+                                                             4:51
                                                            </td>
                                                            <td id="CO 69_D" style="color: rgb(0,255,0);" align="left">
                                                              CO 69
                                                            </td>
                                                            <td id="CO69_TIME" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="window.open('customer.php?sp69','_blank');" align="center">
-                                                             4:46
+                                                             4:48
                                                            </td>
                                                          </tr>
                                                          <tr>
@@ -2110,13 +2110,13 @@ bool_val:1;" width="5%" nowrap="" height="5%">
                                                              <div align="center">2</div>
                                                            </td>
                                                            <td id="BC2_TIME" style="color: cyan;" align="center">
-                                                             5:44
+                                                             5:46
                                                            </td>
                                                            <td id="CO 68_D" style="color: rgb(0,255,0);" align="left">
                                                              CO 68
                                                            </td>
                                                            <td id="CO68_TIME" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="window.open('customer.php?sp68','_blank');" align="center">
-                                                             4:35
+                                                             4:37
                                                            </td>
                                                          </tr>
                                                          <tr>
@@ -2127,7 +2127,7 @@ bool_val:1;" width="5%" nowrap="" height="5%">
                                                              <div align="center">1</div>
                                                            </td>
                                                            <td id="DU1_TIME" style="color: cyan;" align="center">
-                                                             6:48
+                                                             6:50
                                                            </td>
                                                            <td id="CO 70_D" style="color: rgb(255,255,255);" align="left">
                                                              CO 70
@@ -2144,13 +2144,13 @@ bool_val:1;" width="5%" nowrap="" height="5%">
                                                               <div align="center">0</div>
                                                             </td>
                                                             <td id="OF1_TIME" style="color: cyan;" nowrap="" height="5%" align="center">
-                                                              6:52
+                                                              6:54
                                                             </td>
                                                             <td id="CO 37A_D" style="color: rgb(0,255,0);" align="left">
                                                               CO 37A
                                                             </td>
                                                             <td id="CO37A_TIME" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="window.open('customer.php?sp37a','_blank');" align="center">
-                                                              5:58
+                                                              6:00
                                                             </td>
                                                           </tr>
 	                                                         <tr>
@@ -2161,13 +2161,13 @@ bool_val:1;" width="5%" nowrap="" height="5%">
                                                                <div align="center">1</div>
                                                              </td>
                                                              <td id="FX1_TIME" style="color: cyan;" align="center">
-                                                               5:12
+                                                               5:14
                                                              </td>
                                                              <td id="RCO 1A_D" style="color: rgb(0,255,0);" align="left">
                                                                RCO 1A
                                                              </td>
                                                              <td id="RCO1A_TIME" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="window.open('customer.php?spfx1','_blank');" align="center">
-                                                               1:18
+                                                               1:20
                                                              </td>
                                                            </tr>
 	                                                          <tr>
@@ -2178,13 +2178,13 @@ bool_val:1;" width="5%" nowrap="" height="5%">
                                                                 <div align="center">0</div>
                                                               </td>
                                                               <td id="CO68A_TIME" style="color: cyan;" align="center">
-                                                                5:32
+                                                                5:34
                                                               </td>
                                                               <td id="CO 38B_D" style="color: rgb(0,255,0);" align="left">
                                                                 CO 38B
                                                               </td>
                                                               <td id="CO38B_TIME" style="cursor: pointer; text-decoration: underline; color: cyan;" onclick="window.open('customer.php?sp38b','_blank');" align="center">
-                                                                5:28
+                                                                5:30
                                                               </td>
                                                             </tr>
                                                           </tbody>
@@ -2198,8 +2198,8 @@ bool_val:1;" width="5%" nowrap="" height="5%">
                                                             <tr>
                                                               <td colspan="2">
                                                                 <font color="yellow">ROUTES (Last updated </font>
-                                                                <!-- <font color="cyan">08-09-2025, 12:56:44 <font color="yellow">):</font></font> -->
-                                                                <font color="cyan">08-09-2025 12:56:57 <font color="yellow">):</font></font>
+                                                                <!-- <font color="cyan">08-09-2025, 12:58:44 <font color="yellow">):</font></font> -->
+                                                                <font color="cyan">08-09-2025 12:58:55 <font color="yellow">):</font></font>
                                                               </td>
                                                             </tr>
                                                             
@@ -2771,7 +2771,7 @@ bool_val:1;" width="5%" nowrap="" height="5%">
                                                                       CO 33S,
                                                                     </a>
                                                                     
-                                                                    <a style="cursor:pointer;color:rgb(255,0,0);" onclick="popup('CO_34')" ;="" return="" false;="">
+                                                                    <a style="cursor:pointer;color:rgb(255,255,255);" onclick="popup('CO_34')" ;="" return="" false;="">
                                                                       CO 34,
                                                                     </a>
                                                                     
